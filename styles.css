@@ -1,3 +1,64 @@
 body {
   font-family: 'Lato', sans-serif;
+  width: 100vw;
+  margin: 0;
+}
+
+.fa-bars {
+  color: #272a31;
+  font-size: 2rem;
+  height: 3.5rem;
+}
+
+.wrapper-1 {
+  position: relative;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
+  width: 100vw;
+}
+
+.wrapper-overlay {
+  background-color: #f3f1f1ee;
+  padding: 1.2rem;
+}
+
+.section-one-content {
+  color: #ec5342;
+  padding: 3% 0 3% 0;
+}
+
+.section-one-content > h4 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.section-one-content > h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 3% 0 3% 0;
+}
+
+.section-two-container {
+  border: 3px solid #fff;
+  background-color: #f3f1f1;
+  padding: 4%;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.section-three-container {
+  color: #272a31;
+}
+
+.section-three-container > h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.section-three-container > h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
 }
