@@ -25,7 +25,8 @@ body {
 }
 
 .section-one-content {
-  color: #ec5342;
+  color: #ec5242;
+  text-shadow: 0.5px 0.5px #000;
   padding: 3% 0 3% 0;
 }
 
@@ -51,6 +52,7 @@ body {
 
 .section-three-container {
   color: #272a31;
+  text-shadow: 0.5px 0.5px #000;
 }
 
 .section-three-container > h3 {
@@ -69,8 +71,79 @@ opacity: 1;
 background-image:  linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77);
 background-size: 14px 25px;
 background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;
-height: 100vh;
 margin-top: -5%;
 color: #f3f1f1;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
+.program-icon {
+  width: 95%;
+  height: 90%;
+}
+
+.program-icon > img {
+  background-color: #f3f1f160;
+  width: 70%;
+  height: 70%;
+}
+
+.daily-div {
+  border-bottom: #ec5242;
+  width: 50%;
+}
+
+.daily_program {
+  padding: 12%;
+  text-align: center;
+  font-size: #f3f3f3;
+  border-bottom: 2px solid #ec5242;
+}
+
+.program-activity-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.program-activity {
+  width: 95%;
+  background-color: #f3f3f321;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.program-activity > * {
+  text-align: left;
+}
+
+.activity-description > p {
+  font-size: 0.8rem;
+  text-shadow: 1px 1px #000;
+  color: #fff;
+}
+
+.program-name {
+  color: #ec5242;
+  text-shadow: 1px 1px #000;
+  text-align: left;
+  padding-right: 2%;
+}
+
+.button {
+  width: 65%;
+}
+
+.join {
+  background-color: #e92e19;
+  border: none;
+  text-shadow: 1px 1px #000;
+  font-size: 1.2rem;
+  color: #f3f1f1;
+  padding: 5%;
+  margin: 3%;
+}
