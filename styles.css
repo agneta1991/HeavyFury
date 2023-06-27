@@ -229,6 +229,56 @@ justify-content: center;
   border: 1px solid blue;
 }
 
+#dynamic-headliners {
+  margin: 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dynamic-bands {
+  background-image: url(images/mini-logo.jpg);
+  background-repeat: repeat;
+  background-size: 35%;
+  background-blend-mode: lighten;
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffffff1;
+  border: 0.5px solid #a5a7ac3d;
+  margin: 2%;
+} 
+
+.dynamic-bands > img {
+  height: 25vh;
+  padding: 3%;
+}
+
+.dynamic-about-h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1%;
+  padding: 1%;
+}
+
+.dynamic-about-h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #ec5242;
+  font-style: italic;
+  margin: 1%;
+  padding: 0;
+  padding-bottom: 5%;
+}
+
+.dynamic-about-p {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin: 1%;
+  padding: 0;
+}
 /*//////////about page/////////////////////*/
 
 .wrapper > .wrapper-overlay {
