@@ -545,7 +545,10 @@ footer > div > p {
   .desktop-menu,
   .desktop-see,
   .desktop-partners,
-  .about-footer-p {
+  .about-footer-p,#band2,
+  #band3,
+  #band4,
+  #band5 {
   display: flex;
   }
 
@@ -610,6 +613,9 @@ footer > div > p {
 
   .about-h4 {
     color: #ec5242;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
   }
 
   .section-one-content {
@@ -838,5 +844,17 @@ footer > div > p {
     margin-right: 10%;
     margin-left: 10%;
     height: 10vh;
+  }
+
+  #dynamic-headliners {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3%;
+  }
+  .dynamic-bands {
+    width: 35vw;
   }
 }
