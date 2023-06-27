@@ -91,11 +91,13 @@ margin-left: 80%;
 .section-three-container > h3 {
   font-size: 1.4rem;
   margin-bottom: 0;
+  color: #484c52;
 }
 
 .section-three-container > h4 {
   font-size: 0.8rem;
   font-weight: 400;
+  color: #484c52;
 }
 
 .program-section {
@@ -109,6 +111,7 @@ color: #f3f1f1;
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content: center;
 }
 
 .program-icon {
@@ -116,7 +119,7 @@ align-items: center;
 }
 
 .program-icon > img {
-  background-color: #f3f1f160;
+  background-color: #ffffff8a;
   width: 70%;
   height: 70%;
 }
@@ -139,8 +142,8 @@ align-items: center;
   content: "";
   position: absolute;
   bottom: 0;
-  left: 35%;
-  width: 30%;
+  left: 45%;
+  width: 10%;
   height: 2px;
   background-color: #ec5242;
   margin: 0 auto;
@@ -204,15 +207,17 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 4rem;
+  height: 3rem;
   border: 1px solid #a5a7ac;
   width: 90%;
+  margin-bottom: 7%;
 }
 
 .see-more > h3 {
   padding: 3%;
   font-size: 0.8rem;
   font-weight: 400;
+  margin: 1%;
 }
 
 .see-more > i {
@@ -279,8 +284,8 @@ align-items: center;
   content: "";
   position: absolute;
   bottom: 0;
-  left: 35%;
-  width: 20%;
+  left: 45%;
+  width: 10%;
   height: 2px;
   background-color: #ec5242;
   margin: 0 auto;
@@ -292,18 +297,20 @@ align-items: center;
   justify-content: center;
   align-items: center;
   padding:  2.5rem;
+  padding-top: 1rem;
   border: 0.5px solid rgb(216, 216, 216);
 }
 
 .logo-description > p {
   text-align: center;
   font-size: 0.7rem;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .logo-description > img {
   width: 100%;
-  padding-top: 7%;
+  padding: 7%;
+  background-color: #a5a7ac15;
 }
 
 .see-past {
@@ -335,9 +342,11 @@ align-items: center;
 }
 
 .see-past > p {
+  padding: 10%;
   text-align: center;
   font-size: 0.7rem;
   padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 .img-1 {
@@ -346,7 +355,7 @@ align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 80%;
+  width: 95%;
   padding: 5%;
   height: 20vh;
   display: flex;
@@ -371,7 +380,7 @@ align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 80%;
+  width: 95%;
   padding: 5%;
   height: 20vh;
   display: flex;
@@ -464,20 +473,25 @@ footer > div > p {
 
 .desktop-languages,
 .desktop-menu,
-.desktop-see {
+.desktop-see,
+.desktop-partners,
+.about-footer-p {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
   
   .mobile-burger,
-  .button {
+  .button,
+  .see-more {
     display: none;
   }
 
   .desktop-languages,
   .desktop-menu,
-  .desktop-see {
+  .desktop-see,
+  .desktop-partners,
+  .about-footer-p {
   display: flex;
   }
 
@@ -506,11 +520,15 @@ footer > div > p {
   .desktop-menu {
     background-color: #fff;
     margin-left: -1.5%;
-    margin-top: 2%;
+    margin-top: 2.3%;
     width: 90.4vw;
     display: flex;
     justify-content: space-around;
     padding: 0 5% 0 5%;
+  }
+
+  .desktop-menu > div {
+    padding: 0.7%;
   }
 
   .desktop-menu > div > h4 {
@@ -520,11 +538,11 @@ footer > div > p {
 
   .header-logo {
     height: 5vh;
-    padding-right: 20%;
+    margin-right: 12%;
   }
 
   .header-logo > img {
-    height: 100%;
+    height: 6vh;
     padding: 6%;
   }
 
@@ -543,7 +561,7 @@ footer > div > p {
   .section-one-content {
     padding: 10%;
     padding-top: 8%;
-    padding-bottom: 2%;
+    padding-bottom: 0;
   }
 
   .section-one-content > h4 {
@@ -553,6 +571,8 @@ footer > div > p {
 
   .section-one-content > h3 {
     font-size: 4.5rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 
   .section-two-container {
@@ -567,14 +587,17 @@ footer > div > p {
 
   .section-three-container {
     margin: 0 10% 0 10%;
+    padding-bottom: 5%;
   }
 
   .section-three-container > h3 {
     font-size: 2.3rem;
+    color: #484c52;
   }
 
   .section-three-container > h4 {
     font-size: 1rem;
+    color: #484c52;
   }
 
   .program-activity-div {
@@ -611,15 +634,155 @@ footer > div > p {
   .daily-program {
     font-size: 1.8rem;
     margin-bottom: 0;
+    padding: 1.7rem;
   }
 
   .desktop-see > h4 {
     font-size: 1.1rem;
     font-weight: 400;
+    margin-bottom: 5%;
   }
 
   .headliners > .daily-div > .daily-program {
     margin: 0;
   }
 
+  .partners-img {
+    width: 80vw;
+    margin: 0 10% 0 10%;
+    justify-content: space-around;
+  }
+
+  .partners-img > img {
+    padding: 0;
+    height: 15vh;
+    width: auto;
+  }
+
+  #smaller {
+    height: 6vh;
+    padding-top: 4%;
+  }
+
+  .partners-div > h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    padding: 1.7rem;
+    color: #a5a7ac;
+  }
+
+  .footer {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 1% 10% 3% 10%;
+  }
+
+  .footer > img {
+    height: 8vh;
+    padding-right: 15%;
+  }
+
+  .footer > p {
+    font-size: 1.1rem;
+    padding-top: 3%;
+  }
+
+  .about-container {
+    padding-top: 5%;
+  }
+
+  .no-display {
+    display: none;
+  }
+
+  .about-container > h3 {
+    padding-bottom: 5%;
+  }
+
+  .about-container-p {
+    font-size: 1.2rem;
+    width: 70vw;
+    line-height: 2rem;
+  }
+
+  .contact-us > p {
+    font-size: 1.2rem;
+    width: 100%;
+    line-height: 2.2rem;
+  }
+
+  .contact-us > p > span {
+    text-decoration: underline;
+    padding: 1%;
+  }
+
+  .logo-description > .desktop-see {
+    margin: 2%;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    width: 60vw;
+
+  }
+
+  .logo-description > img {
+    height: 17vh;
+    width: auto;
+    padding: 3%;
+    border: 1px solid #a5a7ac;
+    background-color: #a5a7ac1b;
+  }
+
+  .logo-description > h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    padding: 1.7rem;
+  }
+
+  .logo-description > p {
+    padding: 0;
+  }
+
+  .about-page > .front-page > .wrapper > .partners-div {
+    display: none;
+  }
+
+  .see-past > h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    padding: 1.7rem;
+  }
+
+  .see-past > p {
+    padding: 0;
+    font-size: 1.2rem;
+    width: 100%;
+    line-height: 2.2rem;
+  }
+
+  .see-past > div > .img-1,
+  .see-past > div > .img-2 {
+    height: 20vh;
+    width: 35vw;
+    margin: 1%;
+  }
+
+  .past-images {
+    display: flex;
+    margin-bottom: 5%;
+  }
+
+  .about-footer {
+    background-color: #2b2e33;
+    color: #fff;
+    padding: 3% 10% 3% 10%;
+
+  }
+
+  .about-footer > img {
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 10vh;
+  }
 }
