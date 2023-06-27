@@ -96,13 +96,4 @@ function showFunction() {
   document.getElementById('band5').style.display = 'flex';
 
   seeMore.innerHTML = '<h3>See less</h3>' + '<i class="fas fa-chevron-up"></i>' ;
-  seeMore.addEventListener('touchstart', closeFunction);
-
-  function closeFunction() {
-    document.getElementById('band2').style.display = 'none';
-    document.getElementById('band3').style.display = 'none';
-    document.getElementById('band4').style.display = 'none';
-    document.getElementById('band5').style.display = 'none';
-    seeMore.innerHTML = '<h3>See more</h3>' + '<i class="fas fa-chevron-down"></i>' ;
-  }
 }

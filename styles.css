@@ -37,6 +37,7 @@ body {
   background-repeat: repeat;
   background-blend-mode: lighten;
 }
+
 .mobile-burger-menu-page {
   padding-top: 30%;
   text-align: left;
@@ -46,7 +47,7 @@ body {
   width: 100vw;
   position: fixed;
   background-color: #272a31;
-  background-image:  linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77);
+  background-image: linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77);
   background-size: 14px 25px;
   background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;
   z-index: 2;
@@ -57,7 +58,7 @@ body {
 }
 
 #fa-close {
-margin-left: 80%;
+  margin-left: 80%;
 }
 
 #burger-menu-page {
@@ -108,17 +109,17 @@ margin-left: 80%;
 }
 
 .program-section {
-background-color: #272a31;
-opacity: 1;
-background-image:  linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77);
-background-size: 14px 25px;
-background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;
-margin-top: -5%;
-color: #f3f1f1;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  background-color: #272a31;
+  opacity: 1;
+  background-image: linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77);
+  background-size: 14px 25px;
+  background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;
+  margin-top: -5%;
+  color: #f3f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .program-icon {
@@ -210,6 +211,13 @@ justify-content: center;
   margin: 1%;
 }
 
+.see-more > h3 {
+  padding: 3%;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 1%;
+}
+
 .see-more {
   display: flex;
   justify-content: center;
@@ -218,13 +226,6 @@ justify-content: center;
   border: 1px solid #a5a7ac;
   width: 90%;
   margin-bottom: 7%;
-}
-
-.see-more > h3 {
-  padding: 3%;
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin: 1%;
 }
 
 .see-more > i {
@@ -248,7 +249,6 @@ justify-content: center;
   background-size: 35%;
   background-blend-mode: lighten;
   width: 85vw;
-  display: flex;
   flex-direction: row;
   display: flex;
   justify-content: center;
@@ -256,7 +256,7 @@ justify-content: center;
   background-color: #fffffff1;
   border: 0.5px solid #a5a7ac3d;
   margin: 2%;
-} 
+}
 
 .dynamic-bands > img {
   height: 25vh;
@@ -286,7 +286,6 @@ justify-content: center;
   margin: 1%;
   padding: 0;
 }
-/*//////////about page/////////////////////*/
 
 .wrapper > .wrapper-overlay {
   display: flex;
@@ -330,7 +329,6 @@ justify-content: center;
 .logo-description > h3 {
   font-size: 1.3rem;
   font-weight: 400;
-  padding: 12%;
   text-align: center;
   position: relative;
   padding: 5%;
@@ -353,9 +351,32 @@ justify-content: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:  2.5rem;
+  padding: 2.5rem;
   padding-top: 1rem;
   border: 0.5px solid rgb(216, 216, 216);
+}
+
+.partners-img > img {
+  width: 23%;
+  padding: 3%;
+}
+
+.logo-description > img {
+  width: 100%;
+  padding: 7%;
+  background-color: #a5a7ac15;
+}
+
+.footer > div > img {
+  height: 5vh;
+}
+
+.see-past > p {
+  padding: 10%;
+  text-align: center;
+  font-size: 0.7rem;
+  padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 .logo-description > p {
@@ -364,10 +385,8 @@ justify-content: center;
   padding-top: 5%;
 }
 
-.logo-description > img {
-  width: 100%;
-  padding: 7%;
-  background-color: #a5a7ac15;
+.footer > div > p {
+  font-size: 0.6rem;
 }
 
 .see-past {
@@ -380,7 +399,6 @@ justify-content: center;
 .see-past > h3 {
   font-size: 1.3rem;
   font-weight: 400;
-  padding: 12%;
   text-align: center;
   position: relative;
   padding: 3%;
@@ -396,14 +414,6 @@ justify-content: center;
   height: 2px;
   background-color: #ec5242;
   margin: 0 auto;
-}
-
-.see-past > p {
-  padding: 10%;
-  text-align: center;
-  font-size: 0.7rem;
-  padding-bottom: 3%;
-  padding-top: 3%;
 }
 
 .img-1 {
@@ -428,7 +438,7 @@ justify-content: center;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ec534290
+  background-color: #ec534290;
 }
 
 .img-2 {
@@ -453,7 +463,7 @@ justify-content: center;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ec5342a0
+  background-color: #ec5342a0;
 }
 
 .year {
@@ -481,7 +491,6 @@ justify-content: center;
 .partners-div > h3 {
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 12%;
   text-align: center;
   position: relative;
   padding: 5%;
@@ -507,25 +516,12 @@ justify-content: center;
   padding-top: 0.5rem;
 }
 
-.partners-img > img {
-  width: 23%;
-  padding: 3%;
-}
-
 footer > div {
   padding: 1.2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #a5a7ac16;
-}
-
-footer > div > img {
-height: 5vh;
-}
-
-footer > div > p {
-  font-size: 0.6rem;
 }
 
 #band2,
@@ -541,7 +537,6 @@ footer > div > p {
 }
 
 @media only screen and (min-width: 768px) {
-  
   .mobile-burger,
   .button,
   .see-more {
@@ -552,11 +547,12 @@ footer > div > p {
   .desktop-menu,
   .desktop-see,
   .desktop-partners,
-  .about-footer-p,#band2,
+  .about-footer-p,
+  #band2,
   #band3,
   #band4,
   #band5 {
-  display: flex;
+    display: flex;
   }
 
   .desktop-languages {
@@ -578,7 +574,6 @@ footer > div > p {
   .desktop-languages > div > a {
     padding: 2%;
     color: #fff;
-    
   }
 
   .desktop-menu {
@@ -594,6 +589,22 @@ footer > div > p {
 
   .desktop-menu > div {
     padding: 0.7%;
+  }
+
+  .desktop-see > h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+  }
+
+  .section-three-container > h4 {
+    font-size: 1rem;
+    color: #484c52;
+  }
+
+  .section-one-content > h4 {
+    font-size: 2.5rem;
+    font-weight: 400;
   }
 
   .desktop-menu > div > h4 {
@@ -631,11 +642,6 @@ footer > div > p {
     padding-bottom: 0;
   }
 
-  .section-one-content > h4 {
-    font-size: 2.5rem;
-    font-weight: 400;
-  }
-
   .section-one-content > h3 {
     font-size: 4.5rem;
     padding-top: 1%;
@@ -646,9 +652,6 @@ footer > div > p {
     width: 50%;
     margin: 0 10% 0 10%;
     padding: 1%;
-  }
-
-  .section-two-container {
     font-size: 1rem;
   }
 
@@ -662,11 +665,6 @@ footer > div > p {
     color: #484c52;
   }
 
-  .section-three-container > h4 {
-    font-size: 1rem;
-    color: #484c52;
-  }
-
   .program-activity-div {
     display: flex;
     flex-direction: row;
@@ -676,14 +674,9 @@ footer > div > p {
   .program-activity {
     display: flex;
     flex-direction: column;
-  }
-
-  .program-icon,
-  .program-name,
-  .activity-description {
-    display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    height: 40vh;
   }
 
   .program-icon {
@@ -691,23 +684,17 @@ footer > div > p {
     width: 60%;
   }
 
-  .desktop-see{
+  .desktop-see {
     border-bottom: 2px solid #fff;
     margin: 1%;
     padding-bottom: 0;
     margin-bottom: 4.5%;
   }
-  
+
   .daily-program {
     font-size: 1.8rem;
     margin-bottom: 0;
     padding: 1.7rem;
-  }
-
-  .desktop-see > h4 {
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin-bottom: 5%;
   }
 
   .headliners > .daily-div > .daily-program {
@@ -752,7 +739,7 @@ footer > div > p {
   }
 
   .footer > p {
-    font-size: 1.1rem;
+    font-size: 0.6rem;
     padding-top: 3%;
   }
 
@@ -790,7 +777,6 @@ footer > div > p {
     font-size: 1.2rem;
     line-height: 2.2rem;
     width: 60vw;
-
   }
 
   .logo-description > img {
@@ -844,7 +830,6 @@ footer > div > p {
     background-color: #2b2e33;
     color: #fff;
     padding: 3% 10% 3% 10%;
-
   }
 
   .about-footer > img {
@@ -861,6 +846,7 @@ footer > div > p {
     flex-wrap: wrap;
     margin: 3%;
   }
+
   .dynamic-bands {
     width: 35vw;
   }
