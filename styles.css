@@ -38,15 +38,22 @@ body {
   background-blend-mode: lighten;
 }
 .mobile-burger-menu-page {
+  padding-top: 30%;
   text-align: left;
   margin-left: -1.2rem;
-  height: 30vh;
+  margin-top: -4.5rem;
+  height: 100vh;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   background-color: #272a31;
   background-image:  linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77);
   background-size: 14px 25px;
-  background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;  
+  background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;
+  z-index: 2;
+}
+
+.menu-content {
+  padding-top: 10%;
 }
 
 #fa-close {
@@ -581,6 +588,7 @@ footer > div > p {
     width: 90.4vw;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 0 5% 0 5%;
   }
 
@@ -600,7 +608,6 @@ footer > div > p {
 
   .header-logo > img {
     height: 6vh;
-    padding: 6%;
   }
 
   .heavy-container {
