@@ -27,21 +27,29 @@
 # 📖 Music Festival Capstone Project <a name="about-project"></a>
 <br>
 
+<img src="images/readme-pic.jpg" alt="project" />
+<br>
+
+#### ***Music Festival HeavyFury is a fictional festival, with fictional bands. Pictures are from a website pexels.com*** ####
+<br>
 This capstone project is a culmination of my first modules' learning journey. Solo project where I have applied the knowledge and skills acquired throughout my studies. With this web-page I am demonstrating my critical thinking, research, and problem-solving abilities.
+<br>
+<br>
 
 ## 🛠 Built With <a name="built-with"></a>
 <br>
 
-<details>
-  <summary>Page was built using HTML, CSS, JavaScript</summary>
-</details>
+
+  <summary>Page was built using HTML, CSS, JavaScript<br>
+  part of the page (section called Headliners) dynamically, using Javascript</summary>
+
 <br>
 
 ### Key Features <a name="key-features"></a>
 
 <br>
 
-- **Project has a set up of mobile first**
+- **Project has a set up for mobile first**
 - **Project has verious desktop screen size set up**
 - **Dynamically built HTML with JavaScript in order to be able to update it without re-writing whole HTML**
 
@@ -61,7 +69,7 @@ This capstone project is a culmination of my first modules' learning journey. So
 ## 💻 Getting Started <a name="getting-started"></a>
 <br>
 
-A great project which can be used to almost anything, as it is made dynamically, so information can be updated through Javascript.
+A great project which can be used for almost anything, as it is made dynamically, so information can be updated or added through Javascript.
 
 To get a local copy up and running, follow these steps:
 <br>
