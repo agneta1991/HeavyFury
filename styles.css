@@ -20,8 +20,11 @@ body {
 }
 
 .wrapper-overlay {
-  background-color: #f3f1f1ee;
+  background-color: #f3f1f1d2;
   padding: 1.2rem;
+  background-image: url(images/background\ icon.png);
+  background-repeat: repeat;
+  background-blend-mode: lighten;
 }
 
 .section-one-content {
@@ -61,7 +64,7 @@ body {
 }
 
 .section-three-container > h4 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
@@ -94,10 +97,11 @@ align-items: center;
 
 .daily-program {
   font-weight: 400;
-  padding: 12%;
+  padding: 7%;
   text-align: center;
   position: relative;
   font-size: 1.2rem;
+  margin: 7%;
 }
 
 .daily-program::after {
@@ -144,6 +148,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   width: 65%;
+  padding: 3%;
 }
 
 .join {
@@ -161,6 +166,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1%;
 }
 
 .see-more {
@@ -173,7 +179,9 @@ align-items: center;
 }
 
 .see-more > h3 {
-  padding: 2%;
+  padding: 3%;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
 .see-more > i {
@@ -200,6 +208,7 @@ align-items: center;
 
 .about-container {
   padding: 3%;
+  color: orangered;
 }
 
 .about-container > h4 {
@@ -213,11 +222,11 @@ align-items: center;
 .about-container-p {
   background-color: #fff;
   border: 0.5px solid rgb(216, 216, 216);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .contact-us > p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 3%;
 }
 
@@ -227,7 +236,7 @@ align-items: center;
 
 .logo-description > h3 {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 400;
   padding: 12%;
   text-align: center;
   position: relative;
@@ -247,13 +256,17 @@ align-items: center;
 }
 
 .logo-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding:  2.5rem;
   border: 0.5px solid rgb(216, 216, 216);
 }
 
 .logo-description > p {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   padding-top: 10%;
 }
 
@@ -271,11 +284,11 @@ align-items: center;
 
 .see-past > h3 {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 400;
   padding: 12%;
   text-align: center;
   position: relative;
-  padding: 5%;
+  padding: 3%;
   margin: 0;
 }
 
@@ -292,8 +305,8 @@ align-items: center;
 
 .see-past > p {
   text-align: center;
-  font-size: 0.9rem;
-  padding-top: 5%;
+  font-size: 0.7rem;
+  padding-bottom: 3%;
 }
 
 .img-1 {
@@ -305,6 +318,10 @@ align-items: center;
   width: 80%;
   padding: 5%;
   height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-1::after {
@@ -326,6 +343,10 @@ align-items: center;
   width: 80%;
   padding: 5%;
   height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-2::after {
@@ -335,5 +356,76 @@ align-items: center;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ec534290
+  background-color: #ec5342a0
+}
+
+.year {
+  color: #fff;
+  z-index: 2;
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+.where {
+  color: #fff;
+  z-index: 2;
+  font-size: 1.1rem;
+}
+
+.partners-div {
+  background-color: #272a31db;
+  padding: 1.2rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners-div > h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12%;
+  text-align: center;
+  position: relative;
+  padding: 5%;
+  margin: 0;
+  color: #ffffffe1;
+}
+
+.partners-div > h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 30%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 0 auto;
+}
+
+.partners-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.partners-img > img {
+  width: 23%;
+  padding: 3%;
+}
+
+footer > div {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > div > img {
+height: 5vh;
+}
+
+footer > div > p {
+  font-size: 0.6rem;
 }
