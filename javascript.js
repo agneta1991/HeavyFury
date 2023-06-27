@@ -42,8 +42,7 @@ const burger = document.getElementById('burger');
 const burgerMenu = document.getElementById('burger-menu-page');
 const closeIcon = document.getElementById('fa-close');
 
-function exitFunction(event) {
-  event.preventDefault();
+function exitFunction() {
   burgerMenu.style.display = 'none';
 }
 
