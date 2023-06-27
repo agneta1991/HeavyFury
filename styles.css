@@ -96,8 +96,8 @@ align-items: center;
   font-weight: 400;
   padding: 12%;
   text-align: center;
-  font-size: #f3f3f3;
   position: relative;
+  font-size: 1.2rem;
 }
 
 .daily-program::after {
@@ -198,6 +198,10 @@ align-items: center;
   align-self: flex-start;
 }
 
+.about-container {
+  padding: 3%;
+}
+
 .about-container > h4 {
   font-size: 1.1rem;
 }
@@ -209,4 +213,127 @@ align-items: center;
 .about-container-p {
   background-color: #fff;
   border: 0.5px solid rgb(216, 216, 216);
+  font-size: 0.9rem;
+}
+
+.contact-us > p {
+  font-size: 0.8rem;
+  padding: 3%;
+}
+
+.contact-us > p > span {
+  font-weight: 600;
+}
+
+.logo-description > h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 12%;
+  text-align: center;
+  position: relative;
+  padding: 5%;
+  margin: 0;
+}
+
+.logo-description > h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 20%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 0 auto;
+}
+
+.logo-description {
+  padding:  2.5rem;
+  border: 0.5px solid rgb(216, 216, 216);
+}
+
+.logo-description > p {
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 10%;
+}
+
+.logo-description > img {
+  width: 100%;
+  padding-top: 7%;
+}
+
+.see-past {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.see-past > h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 12%;
+  text-align: center;
+  position: relative;
+  padding: 5%;
+  margin: 0;
+}
+
+.see-past > h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 20%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 0 auto;
+}
+
+.see-past > p {
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 5%;
+}
+
+.img-1 {
+  position: relative;
+  background-image: url(images/past-year.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  padding: 5%;
+  height: 20vh;
+}
+
+.img-1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ec534290
+}
+
+.img-2 {
+  position: relative;
+  background-image: url(images/past-year2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  padding: 5%;
+  height: 20vh;
+}
+
+.img-2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ec534290
 }
