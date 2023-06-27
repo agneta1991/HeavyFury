@@ -10,6 +10,17 @@ body {
   height: 3.5rem;
 }
 
+.mobile-burger-menu-page > ul > li > a,
+.fa-close {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-shadow: 2px 2px #e92e19;
+  padding: 1%;
+  line-height: 140%;
+}
+
 .wrapper-1 {
   position: relative;
   background-image: url(images/background.jpg);
@@ -25,6 +36,25 @@ body {
   background-image: url(images/background\ icon.png);
   background-repeat: repeat;
   background-blend-mode: lighten;
+}
+.mobile-burger-menu-page {
+  text-align: left;
+  margin-left: -1.2rem;
+  height: 30vh;
+  width: 100vw;
+  position: absolute;
+  background-color: #272a31;
+  background-image:  linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(30deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(150deg, #0e0e0e 12%, transparent 12.5%, transparent 87%, #0e0e0e 87.5%, #0e0e0e), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77), linear-gradient(60deg, #0e0e0e77 25%, transparent 25.5%, transparent 75%, #0e0e0e77 75%, #0e0e0e77);
+  background-size: 14px 25px;
+  background-position: 0 0, 0 0, 7px 12px, 7px 12px, 0 0, 7px 12px;  
+}
+
+#fa-close {
+margin-left: 80%;
+}
+
+#burger-menu-page {
+  display: none;
 }
 
 .section-one-content {
@@ -102,6 +132,7 @@ align-items: center;
   position: relative;
   font-size: 1.2rem;
   margin: 7%;
+  margin-top: 12%;
 }
 
 .daily-program::after {
@@ -420,6 +451,7 @@ footer > div {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #a5a7ac16;
 }
 
 footer > div > img {
