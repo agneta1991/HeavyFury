@@ -461,3 +461,165 @@ height: 5vh;
 footer > div > p {
   font-size: 0.6rem;
 }
+
+.desktop-languages,
+.desktop-menu,
+.desktop-see {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .mobile-burger,
+  .button {
+    display: none;
+  }
+
+  .desktop-languages,
+  .desktop-menu,
+  .desktop-see {
+  display: flex;
+  }
+
+  .desktop-languages {
+    position: absolute;
+    width: 100vw;
+    height: 3rem;
+    justify-content: right;
+    background-color: #3d4148;
+    margin: 0;
+    margin-top: -1.2%;
+    margin-left: -1.5%;
+  }
+
+  .desktop-languages > div {
+    width: 25vw;
+    align-self: center;
+  }
+
+  .desktop-languages > div > a {
+    padding: 2%;
+    color: #fff;
+    
+  }
+
+  .desktop-menu {
+    background-color: #fff;
+    margin-left: -1.5%;
+    margin-top: 2%;
+    width: 90.4vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5% 0 5%;
+  }
+
+  .desktop-menu > div > h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .header-logo {
+    height: 5vh;
+    padding-right: 20%;
+  }
+
+  .header-logo > img {
+    height: 100%;
+    padding: 6%;
+  }
+
+  .heavy-container {
+    color: #ec5242;
+    border: 0.3rem solid #ec5242;
+    padding: 12%;
+    width: 5.6rem;
+    margin: 7%;
+  }
+
+  .about-h4 {
+    color: #ec5242;
+  }
+
+  .section-one-content {
+    padding: 10%;
+    padding-top: 8%;
+    padding-bottom: 2%;
+  }
+
+  .section-one-content > h4 {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  .section-one-content > h3 {
+    font-size: 4.5rem;
+  }
+
+  .section-two-container {
+    width: 50%;
+    margin: 0 10% 0 10%;
+    padding: 1%;
+  }
+
+  .section-two-container {
+    font-size: 1rem;
+  }
+
+  .section-three-container {
+    margin: 0 10% 0 10%;
+  }
+
+  .section-three-container > h3 {
+    font-size: 2.3rem;
+  }
+
+  .section-three-container > h4 {
+    font-size: 1rem;
+  }
+
+  .program-activity-div {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10% 0 10%;
+  }
+
+  .program-activity {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program-icon,
+  .program-name,
+  .activity-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program-icon {
+    padding-top: 7%;
+    width: 60%;
+  }
+
+  .desktop-see{
+    border-bottom: 2px solid #fff;
+    margin: 1%;
+    padding-bottom: 0;
+    margin-bottom: 4.5%;
+  }
+  
+  .daily-program {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  .desktop-see > h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .headliners > .daily-div > .daily-program {
+    margin: 0;
+  }
+
+}
