@@ -1,4 +1,4 @@
-let bands = [
+const bands = [
   {
     image: 'images/band1.jpg',
     name: 'Oblivion Reign',
@@ -35,59 +35,58 @@ let bands = [
     name: 'Infernal Forge',
     whereFrom: 'Finland',
     description: 'Masters of relentless aggression, Infernal Forge forge their sound in the fires of hell, delivering a relentless onslaught of blistering riffs and demonic vocals.',
-  }
+  },
 ];
 
-
-let burger = document.getElementById('burger');
-burger.addEventListener('touchstart', openMenu);
-let burgerMenu = document.getElementById('burger-menu-page');
-let closeIcon = document.getElementById('fa-close');
-closeIcon.addEventListener('touchstart', exitFunction);
-
-function openMenu() {
-  burgerMenu.style.display = 'block';
-}
+const burger = document.getElementById('burger');
+const burgerMenu = document.getElementById('burger-menu-page');
+const closeIcon = document.getElementById('fa-close');
 
 function exitFunction(event) {
   event.preventDefault();
   burgerMenu.style.display = 'none';
 }
 
+closeIcon.addEventListener('touchstart', exitFunction);
+const seeMore = document.getElementById('see-more');
+
+function openMenu() {
+  burgerMenu.style.display = 'block';
+}
+
+burger.addEventListener('touchstart', openMenu);
+
 for (let i = 0; i <= bands.length - 1; i += 1) {
-  let mainDiv = document.getElementById('dynamic-headliners');
-  let div = document.createElement('div');
+  const mainDiv = document.getElementById('dynamic-headliners');
+  const div = document.createElement('div');
   div.className = 'dynamic-bands';
-  div.id = 'band' + i;
+  div.id = `band${i}`;
   mainDiv.appendChild(div);
 
-  let pic = document.createElement('img');
+  const pic = document.createElement('img');
   pic.className = 'dynamic-pic';
   pic.src = bands[i].image;
   div.appendChild(pic);
 
-  let divTwo = document.createElement('div');
+  const divTwo = document.createElement('div');
   divTwo.className = 'dynamic-about';
   div.appendChild(divTwo);
 
-  let h3 = document.createElement('h3');
+  const h3 = document.createElement('h3');
   h3.className = 'dynamic-about-h3';
   h3.innerHTML = bands[i].name;
   divTwo.appendChild(h3);
 
-  let h4 = document.createElement('h4');
+  const h4 = document.createElement('h4');
   h4.className = 'dynamic-about-h4';
   h4.innerHTML = bands[i].whereFrom;
   divTwo.appendChild(h4);
 
-  let p = document.createElement('p');
+  const p = document.createElement('p');
   p.className = 'dynamic-about-p';
   p.innerHTML = bands[i].description;
   divTwo.appendChild(p);
 }
-
-let seeMore = document.getElementById('see-more');
-seeMore.addEventListener('touchstart', showFunction);
 
 function showFunction() {
   document.getElementById('band2').style.display = 'flex';
@@ -95,5 +94,7 @@ function showFunction() {
   document.getElementById('band4').style.display = 'flex';
   document.getElementById('band5').style.display = 'flex';
 
-  seeMore.innerHTML = '<h3>See less</h3>' + '<i class="fas fa-chevron-up"></i>' ;
+  seeMore.innerHTML = '<h3>See less</h3> <i class="fas fa-chevron-up"></i>';
 }
+
+seeMore.addEventListener('touchstart', showFunction);
