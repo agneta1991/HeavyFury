@@ -41,6 +41,7 @@ const bands = [
 const burger = document.getElementById('burger');
 const burgerMenu = document.getElementById('burger-menu-page');
 const closeIcon = document.getElementById('fa-close');
+const menuContent = document.querySelectorAll('menu-content');
 
 function exitFunction() {
   burgerMenu.style.display = 'none';
@@ -92,7 +93,6 @@ function showFunction() {
   document.getElementById('band3').style.display = 'flex';
   document.getElementById('band4').style.display = 'flex';
   document.getElementById('band5').style.display = 'flex';
-
   seeMore.className = 'ignore';
 }
 
@@ -100,3 +100,11 @@ seeMore.addEventListener('touchstart', showFunction);
 
 const ignoreDiv = document.getElementById('ignore');
 ignoreDiv.style.display = 'none';
+
+/* click event listener */
+
+seeMore.addEventListener('click', showFunction);
+
+burger.addEventListener('click', openMenu);
+
+closeIcon.addEventListener('click', exitFunction);
