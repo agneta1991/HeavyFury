@@ -97,3 +97,6 @@ function showFunction() {
 }
 
 seeMore.addEventListener('touchstart', showFunction);
+
+const ignoreDiv = document.getElementById('ignore');
+ignoreDiv.style.display = 'none';

@@ -528,6 +528,10 @@ footer > div {
   background-color: #a5a7ac16;
 }
 
+#about-footer > img {
+  width: 30vw;
+}
+
 #band2,
 #band3,
 #band4,
@@ -853,5 +857,12 @@ footer > div {
 
   .dynamic-bands {
     width: 35vw;
+  }
+
+  #ignore {
+    display: none;
+  }
+  #about-page > #dynamicHeadliners {
+    display: none;
   }
 }
