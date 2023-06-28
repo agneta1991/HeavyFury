@@ -54,9 +54,10 @@ function openMenu() {
 }
 
 burger.addEventListener('touchstart', openMenu);
+const mainDiv = document.getElementById('dynamicHeadliners');
 
-for (let i = 0; i <= bands.length - 1; i += 1) {
-  const mainDiv = document.getElementById('dynamic-headliners');
+for (let i = 0; i < bands.length; i += 1) {
+
   const div = document.createElement('div');
   div.className = 'dynamic-bands';
   div.id = `band${i}`;

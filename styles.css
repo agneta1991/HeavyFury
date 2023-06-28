@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.ignore {
+  display: none;
+}
+
 .fa-bars {
   color: #272a31;
   font-size: 2rem;
