@@ -842,7 +842,7 @@ footer > div {
     height: 10vh;
   }
 
-  #dynamic-headliners {
+  #dynamicHeadliners {
     display: flex;
     flex-direction: row;
     justify-content: center;
