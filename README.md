@@ -61,7 +61,8 @@ This capstone project is a culmination of my first modules' learning journey. So
 ## 🚀 Live Demo <a name="live-demo"></a>
 <br>
 
-- [Click me to view deployed project!] (project is not deployed yet)
+- [Click me to view deployed project!](https://agneta1991.github.io/Capstone_project/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
