@@ -57,7 +57,6 @@ burger.addEventListener('touchstart', openMenu);
 const mainDiv = document.getElementById('dynamicHeadliners');
 
 for (let i = 0; i < bands.length; i += 1) {
-
   const div = document.createElement('div');
   div.className = 'dynamic-bands';
   div.id = `band${i}`;
