@@ -75,16 +75,17 @@ body {
   padding: 3% 0 3% 0;
 }
 
-.section-one-content > h4 {
-  font-weight: 400;
-  font-size: 1.2rem;
+.section-one-content > h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
   margin: 0;
 }
 
-.section-one-content > h3 {
+.section-one-content > h4 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 3% 0 3% 0;
+  font-weight: 400;
 }
 
 .section-two-container {
@@ -610,9 +611,9 @@ footer > div {
     color: #484c52;
   }
 
-  .section-one-content > h4 {
-    font-size: 2.5rem;
-    font-weight: 400;
+  .section-one-content > h1 {
+    font-size: 4rem;
+    font-weight: 900;
   }
 
   .desktop-menu > div > h4 {
@@ -650,10 +651,14 @@ footer > div {
     padding-bottom: 0;
   }
 
-  .section-one-content > h3 {
+  .section-one-content > h1 {
     font-size: 4.5rem;
     padding-top: 1%;
     padding-bottom: 1%;
+  }
+  .section-one-content > h4 {
+    font-size: 2rem;
+    padding: 1%;
   }
 
   .section-two-container {
