@@ -58,11 +58,12 @@ This capstone project is a culmination of my first modules' learning journey. So
 
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & Video presentation <a name="live-demo"></a> <a name='video'></a>
 <br>
 
 - [Click me to view deployed project!](https://agneta1991.github.io/Capstone_project/)
 
+- [Click me to view web page and code presentation](https://www.loom.com/share/23f26392f80e40a8b826888253c58e14?sid=6f50acfa-73bd-4161-aa43-1aaf49082ed9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
