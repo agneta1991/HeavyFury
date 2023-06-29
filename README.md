@@ -58,11 +58,12 @@ This capstone project is a culmination of my first modules' learning journey. So
 
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & Video presentation <a name="live-demo"></a> <a name='video'></a>
 <br>
 
 - [Click me to view deployed project!](https://agneta1991.github.io/Capstone_project/)
 
+- [Click me to view web page and code presentation](https://www.loom.com/share/23f26392f80e40a8b826888253c58e14?sid=6f50acfa-73bd-4161-aa43-1aaf49082ed9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,6 +131,9 @@ If you like my page please show your support and give this page a star!
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<br>
+
+#### **I would like to say a big thanks to original creator of this web page Cindy Shin, who designed it and allowed students to use her page as a template** ####
 
 <br>
 I would like to extend my heartfelt gratitude to Microverse for providing me with the opportunity to undertake this capstone project. Additionally, I am immensely thankful to the code reviewers who took the time to assess my work and provide valuable feedback, which greatly contributed to the refinement and success of the project. Your guidance and support have been invaluable throughout this solo endeavor, and I am truly grateful for your contributions.

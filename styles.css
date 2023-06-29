@@ -542,7 +542,7 @@ footer > div {
   background-color: #a5a7ac16;
 }
 
-#about-footer > img {
+#about-footer > a > img {
   width: 30vw;
 }
 
